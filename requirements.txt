@@ -4,3 +4,4 @@ PyPDF2
 pydantic
 python-dotenv
 fpdf2
+python-pptx

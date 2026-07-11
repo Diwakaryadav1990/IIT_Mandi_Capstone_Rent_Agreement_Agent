@@ -1,2 +1,1 @@
 # Paste your Gemini API key on the line below this one (without any quotes)
-AQ.Ab8RN6KJZ8u78SWfaK55ixwMZTDMEw2vIiOTON0wZoe9kgn2aw

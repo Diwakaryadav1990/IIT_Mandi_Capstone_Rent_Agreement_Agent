@@ -26,9 +26,10 @@ def get_api_key_from_file():
     """Tries to read the API key from a local api_key.txt file."""
     if os.path.exists("api_key.txt"):
         with open("api_key.txt", "r") as f:
-            key = f.read().strip()
-            if key:
-                return key
+            for line in f:
+                stripped_line = line.strip()
+                if stripped_line and not stripped_line.startswith("#"):
+                    return stripped_line
     return None
 
 def main():
